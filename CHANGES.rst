@@ -4,18 +4,11 @@ Changelog
 2.2.6 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
-Breaking changes:
-
-- *add item here*
-
-New features:
-
-- *add item here*
-
-Bug fixes:
-
-- *add item here*
-
+- Fix support for Products.TemplateFields where a sourcefile may not be present. This fixes
+  Products.PloneFormGen usage in Plone 4 installations with five.pt. See
+  https://github.com/malthe/chameleon/issues/254 where this was dicussed. Copied this fix from
+  https://github.com/zopefoundation/z3c.ptcompat/issues/2 where similar issue occurs.
+  [fredvd]
 
 2.2.5 (2017-11-26)
 ~~~~~~~~~~~~~~~~~~
