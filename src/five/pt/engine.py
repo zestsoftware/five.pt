@@ -127,7 +127,7 @@ class Program(object):
             source_file = source_file[5:]
 
         template = ChameleonPageTemplate(
-            text, filename=source_file, keep_body=True,
+            text, filename=source_file or '<string>', keep_body=True,
             expression_types=expression_types,
             encoding='utf-8', extra_builtins=cls.extra_builtins,
             )
